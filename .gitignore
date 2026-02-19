@@ -1,0 +1,18 @@
+# Runtime / generated data
+audio/
+library/
+history.json
+whisper_transcribe.py
+
+# Dependencies
+node_modules/
+
+# macOS
+.DS_Store
+
+# Build output
+dist/
+
+# Environment files
+.env
+*.mp3
