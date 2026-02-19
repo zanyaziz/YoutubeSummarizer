@@ -1,4 +1,4 @@
-# YT-Channel-Sentinel
+# YT-Video-Translator-Summarizer
 
 An autonomous AI pipeline that monitors a YouTube channel for new uploads, downloads the audio, transcribes it locally with Whisper, translates non-English content to English with Ollama, generates a summary and key insights, and publishes a styled HTML knowledge base — all running **100% locally** with no external API keys.
 
@@ -63,13 +63,6 @@ ollama serve
 Then run the pipeline against any YouTube channel:
 ```bash
 npm start -- https://www.youtube.com/@<channel_name>
-```
-
-**Examples:**
-```bash
-npm start -- https://www.youtube.com/@DrMoeedPirzadaOfficial
-npm start -- https://www.youtube.com/@lexfridman
-npm start -- https://www.youtube.com/@3blue1brown
 ```
 
 The pipeline will:
